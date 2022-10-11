@@ -1,0 +1,21 @@
+.Goat{
+    display: -webkit-box;
+    padding: 30px;
+}
+.Gangster{
+    padding-left: 200px;
+}
+#mercy{
+  border:0px;
+  padding:100%;
+}
+.signupbtn{
+    border: 0px;
+    margin: 0px;
+    padding:16px 24px;
+}
+.cancelbtn{
+    border: 0px;
+    margin: 0px;
+    padding:16px 24px
+}

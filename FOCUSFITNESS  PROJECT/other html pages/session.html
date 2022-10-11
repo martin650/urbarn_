@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>session</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width:device-width  initial-scale:1">
+  <link rel="stylesheet" type="text/css" href="../css/session.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../css/footer.css">
+  <style>
+    #mercy{
+  
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+  </style>
+</head>
+<body>
+
+  <!--Begining of the navigation bar-->
+  <div>
+    <lable class="focus" for="title"><span class="tip">Focus</span> <span class="text">fitness</span></lable>
+    <ul>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../other html pages/session.html">SESSIONS</a></li>
+        <li><a href="../other html pages/pricing.html">PRICING</a></li>
+        <li><a href="">BLOG</a></li>
+        <li><a href="../other html pages/about.html">ABOUT</a></li>
+        <li><a href="../other html pages/contact.html">CONTACT</a></li>
+        <li><button class="open-button" onclick="openForm()">Sign up</button></li>
+    </ul>
+</div>
+<!--end of the navigation bar -->
+
+<div class="form-popup" id="myForm">
+  <form class="form-container">
+    <h1>Sign Up</h1>
+    <p>Please fill this form...</p>
+
+    <label for="email"><b>Email</b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" required><br>
+
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label><br>
+
+    <button type="submit" class="btn"><a id="mwas" href="index.html">Signup</a></button>
+    <button type="button" class="btn cancel" onclick="closeForm()"><a id="mwas" href="index.html">Cancel</a></button>
+  </form>
+</div>
+<script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+
+  <div >
+    <p>If you're new to training you'll want to master
+      the basic movement patterns first. This will ensure you're 
+      performing exercises safely and effectively. You should start
+       with body weight exercises that emphasize balance, core stability,
+        and basic movement patterns(e.g.., bend-and-lift, single-leg, pushing,
+         pulling, and rotation actions). After you feel comfortable with basic
+          movement patterns, try adding external forces e.g.. weights, resistance
+           bands, and machines.</p>
+  </div>
+<div class="Goat" >
+  <di>
+    <h1>Weight trainig</h1>
+    <p>weight training is an exercise regimen that
+      involves moving items that offer resistance,<br> such as; 
+      free weights(barbells, dumbbells, kettle bells), Weight
+      machine(pulley and<br>stacks), and your body weight(push-ups,
+      chin-ups. These items are moved in a<br>combination of specific
+      exercises, the number of times exercise is done and<br>the number
+      of cycles of reps completed. When you star with weight training,
+      <br>you're building muscle strength and size at the same time. If you
+      decide to take<br>your weight training up to the next level, you have
+      to choose between two types of training.<br>Either focus on hypertrophy,
+      and increasing strength.</p>
+
+    <h1>Strength Training</h1>
+    <p>Strength training(also called resistance training) relates on the ability to be able to move<br>
+      and lift objects. But in spite muscular strength and muscular endurance are similar in some<br>ways, 
+      they have some key differences. Muscular strength is determined by how much force<br>you can exert or
+       how much weight you can lift. While muscular endurance refers to the ability<br>of a muscle to sustain
+        repeated contractions against<br>resistance for an extended period of time.
+      Resistance training is based on the principles that<br>muscles of the body will work to overcome a 
+      resistance force when they are required to do so.<br>When you do resistance training repeatedly and
+       consistently, your muscles become stronger.
+      <br>All well-rounded fitness program includes strength training to improve joint function. 
+      bone<br>density, muscle, tendon and ligament strength, as well as aerobic exercise to 
+      improve your heart<br>and lung fitness, flexibility and balance exercises.
+      The hardest thing to do when starting your<br>strength training work outs is deciding 
+      on exercises and how to set up your workout program.
+      <br>vary your progressive resistance training program every six to eight weeks to 
+      maintain improvement.<br><br> <br>Variables that can impact on your results include:
+      
+      <br>1. Sets<br>
+      <br>2. Repetitions<br>
+      <br>3. Exercises undertaken<br>
+      <br>4. Intensity<br>
+      <br>5. Frequency<br>
+      <br>6. Rest between sets<br>
+      
+      
+    <h2> Examples of strength training</h2>
+      There so many ways you can strengthen your muscles, whether at home or the gym.<br> 
+      Different types of resistance training include:
+      
+      Free weights- classic strength training tools such<br>as dumbbells, barbells and kettle-bells.
+      Medicine balls or sand bags- weighted balls or bags.
+      <br>Weight machines- devices that have adjustable seats with handles attached either to weights or hydraulics</p>
+  </di>
+  <div class="Gangster">
+    <h1>Book your session</h1>
+
+      <label for="Fname" style="align-content:center ;">FIRST NAME</label><br>
+      <input id="mercy "  type="text" placeholder="Enter First Name" name="fname" required></input><br><br>
+
+      <lable for="Lname">LAST NAME</lable><br>
+      <input id="mercy " type="text" placeholder="Enter Last Name" name="Lname" required></input><br><br>
+     
+     <label for="choose trainer">Choose Trainer</label>
+     <select id="trainer" name="trainer">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+     </select><br><br>
+
+     <label for="amount"><b>AMOUNT</b></label><br>
+     <input id=" mercy " type="number" placeholder="Enter amount" name="psw-repeat" required><br><br>
+
+     
+
+     <div class="clearfix">
+        <button type="button" class="cancelbtn"><a href="" style="color: black; text-decoration:none">Cancel</a></button>
+        <button type="submit" class="signupbtn"><a href="" style="color: black; text-decoration:none" >Pay</a></button>
+     </div>
+    
+  </div>
+</div>
+ <footer>
+  <!--begining 0f footer-->
+  
+  <div class="foot">
+    <div>
+    <h1>Get in touch</h1>
+    <p style="font-size:15px ; padding-right: 10px;">We are welcoming you to come and train with us                       <br>for
+       a world class experience.We care     <BR>for you and we have plans for...</p>
+        <p>+254796938469</p>
+        <p>mwangimartin650@gmail.com</p>
+    </div>
+      <div id="kk">
+         <h4><u>Services</u></h4>
+           <a class="footerr" href="#">Beginners program</a>
+           <a class="footerr" href="#">Intermediate programs</a>
+           <a class="footerr" href="#">Advanced programs</a>
+           <a class="footerr" href="#">Dieting</a>
+           <a class="footerr" href="#">Cardio </a>
+           <a class="footerr" href="#">aerobics</a>
+          
+      </div>
+
+      <div class="uhuru">
+          <h4><u>QUICK LINKS</u></h4>
+          
+              <a class="footerr" href="#">Home</a>
+              <a class="footerr" href="#">Sessions</a>
+              <a class="footer" href="#">Pricing</a>
+          
+      </div>
+
+      <div class="uhuru">
+          <h4><u>About US</u></h4>
+              <a class="footerr" href="#">Company</a>
+              <a class="footerr" href="#">Reviews</a>
+              <a class="footerr" href="#">Stakeholders</a>
+      </div>
+
+      <div class="uhuru">
+          <h4><u>MAIN MENU</u></h4>
+          
+              <a class="footerr" href="#">Blogs</a>
+              <a class="footerr" href="#">Gallery</a>
+              <a class="footerr" href="#">users account</a>
+        
+      </div>
+      <div class=" uhuru">
+        <h5 class="text-secondary text-uppercase mb-4">Newsletter</h5>
+        <p>Latest updates members<br> events that focus<br> has for you.</p> 
+            <div class="input-group">
+                <input id="grown" type="text" class="form-control" placeholder="Your Email Address">
+                <button class="btn btn-primary">Sign Up</button>
+                
+            </div>
+        </form>
+  </div>  
+  </div>
+  <!--<div></div>-->
+<hr>
+      <div class="divide">
+          <div class="copy" >
+             &copy;ALL RIGHTS RESERVED.
+          </div>
+
+          <div class="copy-left" style="float:right">
+              <a class="fot" id="alex" href="#">TERMS<spam>/</spam></a>
+              <a class="fot" id="alex" href="#">CONDITIONS<spam>/</spam></a>
+              <a class="fot"id="alex" href="#" >PRIVACY<spam>/</spam></a>
+
+          </div>
+      </div>
+  
+</footer>
+<!--end of the footer-->
+
+</body>
+</html>

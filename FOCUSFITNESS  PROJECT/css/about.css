@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+  }
+  
+.container-fluid{
+  display:-webkit-flex;;
+}
+.martin{
+  padding: 50px;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.title{
+  color:rgb(241, 108, 67);
+  font-style: italic;
+
+}
+.joy{
+  text-decoration: none;
+  color:black;
+}
+
+.button{
+  border:0px;
+  margin:0px;
+  padding:10px 10px;
+  background-color: rgb(213, 233, 127);
+  color:black;
+}
+
+button:hover{
+  background-color: rgb(197, 165, 165);
+  color:white;
+}
+
+.about{
+  padding:20px;
+  text-align: center;
+  color:black;
+  background-image: linear-gradient(rgb(165, 209, 195), rgb(146, 221, 162) );
+}
+
+h1{
+  color:red;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<!--
+    MARTIN MWANGI 
+    IS/0362/20
+
+    PROJECT NAME: Focusfitnesswebsite
+-->
+
+<!--begining of my website project of 'gym website'-->
+
+<html lang="en">
+<head>
+    <title>https://www.focusfittness.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width  initial-scale:0.1">
+    <link rel="stylesheet" type="text/css" href="css\styles.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <style>
+        body{
+    background-image: url("./images/gym.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100%;
+}
+table{
+  float:center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th{
+    color:rgb(238, 74, 9);
+  }
+  
+td,th{
+  padding: 8px;
+}
+
+.table{
+  display: -webkit-box;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .head {
+    width: 100%;
+  }
+
+  .no{
+    width: 100%;
+  }
+}
+
+/**@media (max-width: 992px) {
+    .welcome_detail {
+        width: 100%;
+
+    }
+
+    .card .service_img-box.i-box-1 {
+        width: 100%;
+    }
+
+    .service_img-container .service_img-box.i-box-2 {
+        width: 100%;
+    }
+
+    .service_img-container .service_img-box.i-box-3 {
+        width: 100%;
+    }
+
+    .service_img-container .service_img-box.i-box-4 {
+        width: 100%;
+    }
+
+    .contact_form-container .contact_box {
+        width: 75%;
+
+    }
+
+    .contact_form-container form input,
+    .contact_form-container form input:focus,
+    .contact_form-container form input:active {
+        width: 100%;
+    }
+
+    .service_img-container .service_img-box {
+        margin-top: 35px;
+    }
+
+    .info_section .news_container .social_container {
+
+        width: 100%;
+    }
+
+    .owl-carousel .owl-nav,
+    .owl-carousel .owl-nav.disabled {
+
+        display: flex;
+        position: absolute;
+        top: 110%;
+        transform: translate(-50%);
+        justify-content: space-between;
+        width: 40%;
+        z-index: 0;
+        left: 50%;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome_detail {
+
+        margin-top: 25px;
+    }
+
+    .story_detail {
+
+
+        margin-top: 25px;
+
+    }
+
+    .contact_form-container form input,
+    .contact_form-container form input:focus,
+    .contact_form-container form input:active {
+
+        width: 85%;
+
+    }
+
+    .service_section .container {
+
+        padding: 0;
+
+    }
+
+    .col-md-4.address_container {
+
+        margin-top: 25px;
+
+    }
+
+    .col-md-4.news_container {
+
+        margin-top: 25px;
+
+    }
+
+    .contact_section .row .col-md-6 {
+
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .slider_section .slider_box .slider-detail .slider_detail-text {
+
+        width: 85%;
+    }
+
+    .service_section .container {
+
+        width: 90%;
+    }
+
+    .slider_section .carousel-indicators {
+
+        top: 95%;
+        left: 25%;
+
+        display: flex;
+
+        justify-content: space-between;
+        width: 100px;
+        align-items: center;
+
+    }
+
+    .owl-carousel .owl-nav,
+    .owl-carousel .owl-nav.disabled {
+
+
+        width: 75%;
+
+
+    }
+
+    .contact_form-container .contact_box {
+
+        width: 85%;
+
+    }
+
+    .contact_form-container .contact_box {
+
+
+        padding: 35px 35px;
+
+        margin: 100px 25px;
+
+    }
+
+    .contact_form-container form input,
+    .contact_form-container form input:focus,
+    .contact_form-container form input:active {
+        width: 100%;
+    }
+
+    .info_section .news_container form input {
+        width: 90%;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+    .service_section .service_img-container .service_img-box {
+
+
+        min-width: 275px;
+        height: 250px;
+
+
+    }
+}
+
+@media (min-width: 1200px) {}**/
+
+
+    </style>
+</head>
+<body>
+    <!--Begining of the navigation bar-->
+    <div class="head">
+        <lable class="focus" for="title"><span class="tip">Focus</span> <span class="text">fitness</span></lable>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="other html pages/session.html">SESSIONS</a></li>
+            <li><a href="other html pages/pricing.html">PRICING</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="other html pages/about.html">ABOUT</a></li>
+            <li><a href="other html pages/contact.html">CONTACT</a></li>
+            <li><button class="open-button" onclick="openForm()">Sign up</button></li>
+        </ul>
+    </div>
+    <!--end of the navigation bar -->
+<main>
+  
+  <div class="no">
+   <div>
+     <p><span class="low">Its all about reaching your <span style="font-size: 45px; color:rgb(155, 58, 13);">Goal.</span><br>
+     <span class="low" style="color: rgb(129, 64, 64) ;">No Pain,No gain.
+    Come and <br>train with us and have an experince<br>
+    of a life time,
+    We are locate in</span> EDORET.
+    </p>
+    <button id="mm"><a id="m" href="">Get Started</a></button>
+   </div>
+    <form id="ball">
+      <h1 style="color:black;">Member Login</h1>
+      <label for="username" style="color:black;"><b>Username</b></label><br>
+      <input id="kate" type="text" placeholder="Enter Email" name="email" required><br>
+  
+      <label for="psw" style="color:black;" ><b>Password</b></label><br>
+      <input id="kate" type="password" placeholder="Enter Password" name="psw" required><br>  
+      <button type="submit" id="bt"><a id="mwangi" href="index.html">Login</a></button>
+    </form>
+  </div>
+
+<div class="form-popup" id="myForm">
+    <form class="form-container">
+      <h1>Sign Up</h1>
+      <p>Please fill this form...</p>
+  
+      <label for="email"><b>Email</b></label><br>
+      <input type="text" placeholder="Enter Email" name="email" required><br>
+  
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label><br>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label><br>
+  
+      <button type="submit" class="btn"><a id="mwas" href="index.html">Signup</a></button>
+      <button type="button" class="btn cancel" onclick="closeForm()"><a id="mwas" href="index.html">Cancel</a></button>
+    </form>
+  </div>
+<script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+    
+<div>
+    <h1 style="color:rgb(235, 152, 119);"><u>Choose your supplments here</u></h1>
+    <div class="container-fluid">
+        <div class="mum">
+            <div class="card">
+              <a class="sap" href="#" style="color: black; text-decoration: none;">
+                <img src="./images/fat.jpeg" width="150px" height="150px">
+                <div class="count">
+                    <h1>Price</h1>
+                    <hr>
+                    <p>Ksh 1500</p>
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mum">
+            <div class="card">
+              <a class="sap" href="#" style="color: black; text-decoration: none;">
+                <img src="./images/next.jpeg" width="150px" height="150px">
+                <div class="count">
+                    <h1>Price</h1>
+                    <hr>
+                    <p>Ksh 3000</p>
+                </div>
+              </a>
+            </div>
+        </div>
+
+        <div class="mum">
+            <div class="card">
+              <a class="sap" href="#" style="color: black; text-decoration: none;">
+                <img src="./images/some.jpeg" width="150px" height="150px">
+                <div class="count">
+                    <h1>Price</h1>
+                    <hr>
+                    <p>Ksh 2500</p>
+                </div>
+              </a>
+            </div>
+        </div>
+
+        <div class="mum">
+            <div class="card">
+              <a class="sap" href="#" style="color: black; text-decoration: none;">
+                <img src="./images/fat.jpeg" width="150px" height="150px">
+                <div class="count">
+                    <h1>Price</h1>
+                    <hr>
+                    <p>Ksh 1500</p>
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mum">
+            <div class="card">
+              <a class="sap" href="#" style="color: black; text-decoration: none;">
+                <img src="./images/fat.jpeg" width="150px" height="150px">
+                <div class="count">
+                    <h1>Price</h1>
+                    <hr>
+                    <p>Ksh 1500</p>
+                </a>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+  </div>
+</main>
+  <div>
+    <h1 style="color:#77001a;"><center>Equipements for sale$$</center></h1>
+    <p>Add these to your home training center.</p>
+    <div class="table">
+      <div class="mum">
+        <div class="card">
+          <a class="sap" href="#" style="color: black; text-decoration: none;">
+            <img src="./images/go.jpeg" width="200px" height="200px">
+            <div class="count">
+                
+            </a>
+            </div>
+        </div>
+      </div>
+      <div class="mum">
+        <div class="card">
+          <a class="sap" href="#" style="color: black; text-decoration: none;">
+            <img src="./images/pop.jpeg" width="200px" height="200px">
+            </a>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="table">
+     <div>
+      <h1><u><i>Gym open hours</i></u></h1>
+      <table sytle="width=100% ;">
+          <tr>
+            <th>Day of the week</th>
+            <th>Opening times</th>
+            <th>Closing times</th>
+          </tr>
+
+          <tr>
+            <th>Monday</th>
+            <th>0600</th>
+            <th>2200</th>
+          </tr>
+
+          <tr>
+            <th>Tuesday</th>
+            <th>0600</th>
+            <th>2200</th>
+          </tr>
+
+          <tr>
+            <th>Wednesday</th>
+            <th>0600</th>
+            <th>2200</th>
+          </tr>
+
+          <tr>
+            <th>Thursday</th>
+            <th>0600</th>
+            <th>2200</th>
+          </tr>
+
+          <tr>
+            <th>Friday</th>
+            <th>0600</th>
+            <th>2200</th>
+          </tr>
+
+          <tr>
+            <th>Saturday</th>
+            <th>0700</th>
+            <th>2100</th>
+          </tr>
+
+          <tr>
+            <th>Sunday</th>
+            <th>0800</th>
+            <th>2000</th>
+          </tr>
+      </table>
+     </div>
+     <div>
+      <ol>
+        <h1>Available Equipements at the gym</h1>
+        <li id="you">Dumbbells</li>
+        <li id="you" >tredmills</li>
+        <li id="you" >bumbbells</li>
+      </ol>
+     </div>
+  </div>    
+  
+  <div>
+     <h1>What our community has to say</h1>
+  </div>
+
+
+<hr style="color:black"><b></b>
+<footer>
+  <!--begining 0f footer-->
+  
+  <div class="foot">
+    <div>
+    <h1>Get in touch</h1>
+    <p style="font-size:15px ; padding-right: 10px;">We are welcoming you to come and train with us                       <br>for
+       a world class experience.We care     <BR>for you and we have plans for...</p>
+        <p>+254796938469</p>
+        <p>mwangimartin650@gmail.com</p>
+    </div>
+      <div id="kk">
+         <h4><u>Services</u></h4>
+           <a class="footerr" href="#">Beginners program</a>
+           <a class="footerr" href="#">Intermediate programs</a>
+           <a class="footerr" href="#">Advanced programs</a>
+           <a class="footerr" href="#">Dieting</a>
+           <a class="footerr" href="#">Cardio </a>
+           <a class="footerr" href="#">aerobics</a>
+          
+      </div>
+
+      <div class="uhuru">
+          <h4><u>QUICK LINKS</u></h4>
+          
+              <a class="footerr" href="#">Home</a>
+              <a class="footerr" href="#">Sessions</a>
+              <a class="footer" href="#">Pricing</a>
+          
+      </div>
+
+      <div class="uhuru">
+          <h4><u>About US</u></h4>
+              <a class="footerr" href="#">Company</a>
+              <a class="footerr" href="#">Reviews</a>
+              <a class="footerr" href="#">Stakeholders</a>
+      </div>
+
+      <div class="uhuru">
+          <h4><u>MAIN MENU</u></h4>
+          
+              <a class="footerr" href="#">Blogs</a>
+              <a class="footerr" href="#">Gallery</a>
+              <a class="footerr" href="#">users account</a>
+        
+      </div>
+      <div class=" uhuru">
+        <h5 class="text-secondary text-uppercase mb-4">Newsletter</h5>
+        <p>Latest updates members<br> events that focus<br> has for you.</p> 
+            <div class="input-group">
+                <input id="grown" type="text" class="form-control" placeholder="Your Email Address">
+                <button class="btn btn-primary">Sign Up</button>
+                
+            </div>
+        </form>
+  </div>  
+  </div>
+  <!--<div></div>-->
+<hr>
+      <div class="divide">
+          <div class="copy" >
+             &copy;ALL RIGHTS RESERVED.
+          </div>
+
+          <div class="copy-left" style="float:right">
+              <a class="fot" id="alex" href="#">TERMS<spam>/</spam></a>
+              <a class="fot" id="alex" href="#">CONDITIONS<spam>/</spam></a>
+              <a class="fot"id="alex" href="#" >PRIVACY<spam>/</spam></a>
+
+          </div>
+      </div>
+  
+</footer>
+<!--end of the footer-->
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+.foot{
+    display: -webkit-box;
+    background-color: rgb(70, 95, 116);
+    margin: 0px;
+    padding: 50px;
+    padding-right: 50px;
+    color:white;
+
+}
+
+.footerr{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#alex{
+    display: inline;
+}
+.uhuru{
+    padding-left:100px;
+}
+
+.kk{
+    padding-left:40px;
+}
+
+.input-group{
+    width: 20px;
+    padding: 1px;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+#grown{
+    width:100px;
+}
