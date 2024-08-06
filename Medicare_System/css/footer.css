@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:wght@100&display=swap');
+.footer-logo{
+	color:#d5d5d5;
+	text-align:center;
+	padding:2rem 2rem;
+	font-size:2.5rem;
+	font-weight:normal;
+}
+footer{
+	
+	background:#141c2c;
+	font-family: 'Oswald', sans-serif;
+
+}
+.social{
+	text-align:center;
+}
+.social > a{
+	text-decoration:none;
+	color:#d5d5d5;
+	font-size:2.5rem;
+	width:2.3rem;
+}
+.social > a:hover{
+	color:#8c94b8;
+}
+.container{
+	display:flex;
+	flex-wrap:wrap;
+}
+.footer-cont{
+	display:flex;
+	width:100%;
+	flex:1;
+	flex-direction:column;
+	justify-content:flex-start;
+	padding:0.8rem;
+}
+.footer-cont > h4{
+	line-height:4;
+	color:#d5d5d5;
+	font-size:2rem;
+}
+.footer-cont > a{
+	text-decoration:none;
+	color:#8c94b8;
+	line-height:2;
+	font-size:1.5rem;
+}
+.footer-cont >a:hover{
+	color:#d5d5d5;
+	transition:all .3s ease;
+}
+.footer-cont > p{
+	color:#8c94b8;
+	margin-bottom:20px;
+	font-size:1.3rem;
+}
+.footer-newsletter{
+	display:flex;
+	min-width:300px;
+	flex-wrap:wrap;
+	margin-bottom:20px;
+}
+form input{
+	background-color:#d5d5d5;
+	background:2px solid #d5d5d5;
+	width:65%;
+	padding:0.5rem;
+	margin-right:0.3rem;
+}
+form button{
+	color:#d5d5d5;
+	width:20%;
+	background:transparent;
+	border:2px solid #8c94b8;
+	padding:0.5rem;
+	cursor:pointer;
+	transition:all .2s ease-in;
+}
+.footer-newsletter > input{
+	background-color:#d5d5d5;
+	background:2px solid #d5d5d5;
+	width:65%;
+	padding:0.5rem;
+	margin-right:0.3rem;
+}
+.footer-newsletter > button{
+	color:#d5d5d5;
+	width:20%;
+	background:transparent;
+	border:2px solid #8c94b8;
+	padding:0.5rem;
+	cursor:pointer;
+	transition:all .2s ease-in;
+}
+.footer-newsletter > button:hover{
+	background:#8c94b8;
+}
+.divide{
+	border:1px solid #8c94b8;
+	margin:0.5rem 0rem;
+
+}
+.copy{
+	display:flex;
+	padding-bottom:10px;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.copy-left{
+	color:#d5d5d5;
+	font-size:1.5rem;
+}
+.copy-right > a{
+	text-decoration:none;
+	color:#d5d5d5;
+	font-size:1.5rem;
+	padding-right:10px;
+}

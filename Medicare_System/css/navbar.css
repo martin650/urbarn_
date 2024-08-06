@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:wght@100&display=swap');
+*{
+	font-family: 'Oswald', sans-serif;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration:none;
+	border:none;
+	text-transform:uppercase;
+	font-weight:normal;
+	transition:all .2s ease;
+}
+html{
+	font-size:65%;
+	overflow-x:hidden;
+	scroll-behavior:smooth;
+	scroll-padding-top:7rem;
+}
+body{
+	background:#eee;
+}
+.header{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1000;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:1.8rem 2%;
+	background:#fff;
+	box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+.header .name{
+	font-size:2rem;
+	font-weight:bolder;
+	color:blue;
+}
+.header .name i{
+	color:royalblue;
+}
+.header .navbar a{
+	font-weight:bolder;
+	font-size:1.7rem;
+	margin:0 1rem;
+	color:royalblue;
+}
+.header .navbar a:hover{
+	color:blue;
+}
+.header .right div{
+	width:3.5rem;
+	line-height:4.5rem;
+	border-radius:.5rem;
+	font-size:3rem;
+	padding-right:2rem;
+	padding-left:2rem;
+	margin-right:.3rem;
+	text-align:center;
+	cursor:pointer;
+}
+#menu{
+	display:none;
+}
+
+@media(max-width:1800px){
+	html{
+		font-size:60%;
+	}
+}
+@media(max-width:800px){
+	.header .navbar{
+		position:absolute;
+		top:110%;
+		right:-110%;
+		width:30rem;
+		box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+		border-radius:.5rem;
+		background:whitesmoke;
+	}
+	.header .navbar.active{
+		right:2rem;
+		transition:.4s linear;
+	}
+	#menu{
+		display:inline-block;
+	}
+	.header .navbar a{
+		font-size:2rem;
+		margin:2rem 2.5rem;
+		display:block;
+	}
+}
+@media(max-width:450px){
+	html{
+		font-size:60%;
+	}
+}

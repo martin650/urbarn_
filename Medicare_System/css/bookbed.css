@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.book-bed{
+
+}
+.form{
+	padding-top:3%;
+	padding-left:15%;
+	width:900px;
+	height:500px;
+}
+.form-text{
+	text-align:center;
+	align-items:center;
+}
+.form-main{
+	padding-top:3px;
+}
+.form-main div{
+	width:300px;
+	margin:7px 20px;
+	display:inline-block;
+}
+.form-main div input{
+	width:100%;
+	background:none;
+	border:1px solid dodgerblue;
+	font-size:20px;
+	outline:none;
+	padding:1px 0 1px 7px;
+	margin-top:10px;
+}
+.form-main div span{
+	width:100%;
+	background:none;
+	font-size:20px;
+	font-style:bold;
+	font-size:bold;
+	outline:none;
+	padding:1px 0 1px 7px;
+}
+.form-main div select{
+	width:100%;
+	font-size:20px;
+	margin-top:10px;
+	border:1px solid dodgerblue;
+	background:white;
+}
+.submit{
+	width:100%;
+	text-align:center;
+	padding-left:5%;
+	padding:.3rem 0rem;
+	font-size:bolder;
+	background:royalblue;
+	color:white;
+	cursor:pointer;
+	padding:10px;
+}
+.submit input{
+	width:100px;
+	background:blue !important;
+	color:black !important;
+	transition:all .3s;
+}
+.submit input:hover{
+	width:200px;
+	background:black !important;
+	color:white !important;
+}
+.submit input:active{
+	font-size:19px;
+	background:blue !important;
+	color:black !important;
+}
