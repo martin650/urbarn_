@@ -18,4 +18,5 @@ Fitness Ecommerce plaf: A fitness tracking and management system that allows use
  README
  [Project files]
 
+Please refer to the individual README files within the corresponding project directories for detailed guidance.
 
